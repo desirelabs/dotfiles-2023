@@ -1,4 +1,3 @@
-
 function MyColors()
 	color = color or "rose-pine"
 	vim.cmd.colorscheme(color)
