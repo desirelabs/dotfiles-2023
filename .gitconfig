@@ -15,9 +15,10 @@
   autocrlf = false
 [difftool "meld"]
   cmd = '' \"$LOCAL\" \"$REMOTE\"
-[mergetool "meld"]
+[mergetool "nvim"]
   cmd = "'' "
   trustExitCode = true
+  conflictStyle = diff3
 [cola]
   spellcheck = false
 [init]
